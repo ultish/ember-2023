@@ -1,4 +1,4 @@
-ame: Lint to the Future Dashboard
+name: Lint to the Future Dashboard
 
 on:
   push:
