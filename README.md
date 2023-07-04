@@ -3,6 +3,7 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+Tesitng plugin
 [Lint to the Future](https://ultish.github.io/ember-2023/lint-to-the-future)
 
 ## Prerequisites
