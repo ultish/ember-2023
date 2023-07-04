@@ -1,7 +1,9 @@
-# ember-2023 
+# ember-2023
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+
+[Lint to the Future](https://ultish.github.io/ember-2023/lint-to-the-future)
 
 ## Prerequisites
 
@@ -52,5 +54,5 @@ Specify what it takes to deploy your app.
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://cli.emberjs.com/release/)
 * Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+    * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+    * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
