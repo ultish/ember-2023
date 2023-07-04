@@ -2,7 +2,8 @@
 
 module.exports = {
   root: true,
-  parser: '@babel/eslint-parser',
+  // parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -51,6 +52,15 @@ module.exports = {
       // test files
       files: ['tests/**/*-test.{js,ts}'],
       extends: ['plugin:qunit/recommended'],
+    },
+    {
+      // typescript files
+      files: ['**/*.ts'],
+      plugins: ['@typescript-eslint'],
+      extends: ['plugin:@typescript-eslint/recommended'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'error',
+      },
     },
   ],
 };

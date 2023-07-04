@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'ember-2023',
+    podModulePrefix: 'ember-2023/pods',
     environment,
     rootURL: '/',
     locationType: 'history',
